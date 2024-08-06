@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,300;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* .container1{
+    border: 1px solid transparent;
+    height: 750px;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.4)rgba(0,0,0,0.4));
+    color: white;
+} */
+
+.navbar{
+    width: 100%;
+    height: 84px;
+    background: linear-gradient(rgba(0,0,0,0.4)rgba(0,0,0,0.4));
+    color: white;
+}
+.nav-container{
+    display: flex;
+    height: 84px;
+    width: 90%;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.nav-logo{
+    width: 52px;
+    height: 52px;
+}
+.logo{
+    background-image: url(/images-file/BMW_White_Logo.svg);
+    background-size: cover;
+    height: 52px;
+    width: 100%;
+}
+.nav-container ul li{
+    display: inline-block;
+    padding: 20px;
+   list-style: none;
+}
+.nav-container ul li a{
+   text-decoration: none;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size:large;
+   color: white;
+}
+.container1{
+    width: 100%;
+   height:750px ;
+   background: linear-gradient(rgba(0,0,0,0.4)rgba(0,0,0,0.4));
+   color: white;
+}
+.container1 video{
+    position: absolute;
+    right: 0;
+    bottom:0;
+    z-index: -1;
+    width: 100%;
+}
+li a:hover{
+    
+    border-bottom: 3px solid navy;
+    
+}
+.content{
+    width: 100%;
+    position: absolute;
+    color: white;
+    top: 60%;
+    transform: translateY(-50%);
+    text-align: start;
+    margin-left: 40px;
+    }
+    button{
+        width: 200px;
+        padding:15px ;
+        margin:20px 5px ;
+        text-align: center;
+        color: white;
+        font-weight:600 ;
+        font-size:20px ;
+        border: 2px;
+        cursor: pointer;
+        background-color: rgb(77, 77, 237);
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    button:hover{
+        background: navy;
+        transition: 0.5s;
+        color: white;
+    }
+    .content h1{
+        font-weight:lighter;
+        font-size: 5em;
+       
+        font-family: 'Lato', sans-serif;
+    }
+    .content h3{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .content h2{
+        font-weight:lighter;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+.container2{
+    border: 1px solid transparent;
+    height: 871px;
+    width: 100%;
+    background:linear-gradient(rgba(0,0,0,0.4)rgba(0,0,0,0.4));
+    color: white;
+}
+.container2 video{
+    height: 871px;
+    width: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: relative;
+}
+ .content2{
+    width: 100%;
+    position: relative;
+    color: white;
+    top: -170px;
+    transform: translateY(-50%);
+    text-align: start;
+    margin-left: 40px;
+}
+.content2 h1{
+    font-weight:lighter;
+    font-size: 5em;
+   
+    font-family: 'Lato', sans-serif;
+}
+.content2 h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content2 h2{
+    font-weight:lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container2 .button2{
+    /* display: flex;
+    display: inline-block; */
+    border: 2px solid white;
+    background: transparent;
+    display: inline-flex;
+   
+}
+.button-container{
+    display: flex;
+}
+.button2:hover{
+    border:5px solid white;
+    background: transparent;
+}
+.hero-title{
+    display: inline-block;
+    /* width: 694px; */
+    width: 100%;
+    height: 300.46px;
+    /* margin-left: 30%; */
+    padding: 10px;
+    text-align: center;
+    /* justify-content: space-evenly; */
+    
+    
+}
+
+.hero-title h3{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    padding: 10px;
+    
+}
+.hero-title h2{
+    font-weight:lighter;
+    font-size: 5em;
+    font-family: 'Lato', sans-serif;
+
+}
+.hero-title button{
+    border: 2px solid black;
+    background: transparent;
+    color: black;
+    width: 200px;
+    border-radius: 5px;
+}
+.hero-title-logo1{
+    display: inline-block;
+    /* align-self: flex-start; */
+    margin-right:10px;
+}
+.hero-title-logo2{
+    display: inline-block;
+    /* align-self: center; */
+    justify-self: center;
+
+}
+.hero-title-logo3{
+    display: inline-block;
+    margin-right: -20px;
+}
+.bmw7{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: relative;
+    margin-top: 30px;
+    height: 671px;
+    width: 100%;
+    background-image: url(/images-file/bmw7.png);
+    background-size: cover;
+}
+.bmw7 h1{
+    font-weight: lighter;
+    padding-top: 100px;
+    padding-left: 60px;
+    color: white;
+    font-size: 4em;
+   
+    font-family: 'Lato', sans-serif;
+}
+.bmw7 button{
+   margin-left: 60px;
+   border: 3px solid white;
+   background:transparent;
+   margin-top: 80px;
+   width: 350px;
+}
+.bmw7 button:hover{
+    border: 4px solid white;
+}
+.model-1{
+    margin: 50px;
+}
+ .img1{
+    height: 379px;
+    width: 696px;
+    float: left;
+    margin-right: 30px;
+}
+
+.model-1 h2,h3,p,button{
+   margin-top: 30px;
+}
+.model-1 h3{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    padding: 10px;
+    padding-left: 30px;
+    
+}
+.model-1 h2{
+    font-weight:lighter;
+    font-size: 4em;
+    font-family: 'Lato', sans-serif;
+    padding-left: 30px;
+
+}
+.model-1 p{
+    font-size: 16px;
+    font-weight:lighter;
+    font-family: 'Lato', sans-serif;
+}
+.model-1 button{
+    border: 2px solid black;
+    background: transparent;
+    color: black;
+}
+.model-2{
+    margin: 50px;
+
+}
+.model-2 img{
+    height: 379px;
+    width: 696px;
+    float: left;
+    margin-right: 30px;
+}
+.model-2 h2,h3,p,button{
+   margin-top: 30px;
+}
+.model-2 h3{
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    color: grey;
+    padding: 10px;
+    
+}
+.model-2 h2{
+    font-weight:lighter;
+    font-size: 4em;
+    font-family: 'Lato', sans-serif;
+
+}
+.model-2 p{
+    font-size: 16px;
+    font-weight:lighter;
+    font-family: 'Lato', sans-serif;
+}
+.model-2 button{
+    border: 2px solid black;
+    background: transparent;
+    color: black;
+    font-family: 'Lato', sans-serif;
+}
+footer{
+    clear: both;
+    height: 600px;
+    /* border: 1px solid black; */
+}
+.headsection{
+    display: flex;
+    height: 32px;
+    width: 1017px;
+    padding: 32px 0px 16px;
+    margin: 0px 0px 4px;
+}
+.headsection p{
+    font-size: 14px;
+    font-weight:lighter;
+    font-family:  'Lato', sans-serif;
+    padding: 4px 0px 0px;
+    margin: 0px 32px 12px 0px;
+    padding-left: 40px;
+}
+.headsection h2{
+    font-size: 20px;
+    font-family:  'Lato', sans-serif;
+}
+.body-section{
+    display: block;
+    margin-top: 50px;
+    height: 441px;
+    width: 100%;
+    background-color: rgb(231, 231, 231);
+}
+
+.body-section P{
+    font-size: 14px;
+    font-weight:lighter;
+    font-family:  'Lato', sans-serif;
+}
+.body-section-blocks{
+    display: flex;
+    justify-content: space-evenly;
+}
+.body-section-block1{
+    height: 144px;
+    width: 237px;
+}
+.body-section h3{
+    font-size: 15px;
+    font-family:  'Lato', sans-serif;
+}
+.body-section-block2{
+    height: 196px;
+    width: 237px;
+}
+.body-section-block3{
+    height: 144px;
+    width: 237px;
+}
+.body-section-block4{
+    height: 52px;
+    width: 237px;
+}
+.body-section-icons{
+   
+    height: 150px;
+    width: 928px;
+    margin: 0px 0px 4px;
+    padding: 32px 0px 16px;
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.footer-section{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    margin: 20px;
+}
+.footer-list{
+    height: 80px;
+    width:475px ;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 760px;
+    
+    
+}
+.footer-list ul li{
+    display:inline-block;
+    list-style: none;
+    text-decoration: none;
+    padding-left: 30px;
+    
+}
+.footer-list ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-family:  'Lato', sans-serif;
+    font-size: 16px;
+
+}
+.footer-section p{
+   text-align: start;
+   font-family:  'Lato', sans-serif;
+}
